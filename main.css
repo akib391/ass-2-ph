@@ -1,0 +1,88 @@
+body {
+}
+.nav-item {
+  margin-right: 30px;
+}
+.navs img {
+  width: 200px;
+}
+.shoeImg img {
+  width: 350px;
+}
+.header h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+#peng {
+  color: #fa804c;
+}
+#winter {
+  color: #363958;
+}
+.mobileView {
+  display: none;
+}
+.headings {
+  color: #363958;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.card img {
+  width: 170px;
+}
+.cardInside {
+  border-radius: 10px;
+}
+.card {
+  width: 18rem;
+  border: none !important;
+  box-shadow: 1px 1px 20px lightgrey;
+  border-radius: 10px !important;
+}
+.btn img {
+  width: 20px;
+}
+.price {
+  color: red;
+}
+.footerSec {
+  margin-top: 60px !important;
+}
+.propertysPic img {
+  width: 450px;
+}
+.propertyBox img {
+  width: 60px;
+  margin-right: 20px;
+}
+.propertyBox {
+  box-shadow: 1px 1px 20px lightgrey;
+  padding: 20px;
+  margin: 20px 0px;
+}
+.extra img {
+  width: 250px !important;
+}
+
+/* For Mobile View */
+
+@media screen and (max-width: 650px) {
+  .desktopView {
+    display: none;
+  }
+  .mobileView {
+    display: block;
+  }
+  .col-md-4 {
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    margin-top: 20px;
+  }
+  .propertysPic img {
+    width: 300px;
+  }
+}
